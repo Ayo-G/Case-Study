@@ -1,4 +1,4 @@
-# Data Analysis Case Study
+# Mobile Money Case Study
 This repo hosts a case study I will be using to test my data analysis skills. <br>
 <sub> The original repo can be found [here](https://github.com/mwangi-george/Data_Analysis_Case_Study) </sub>
 
