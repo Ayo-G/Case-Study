@@ -1,5 +1,4 @@
 # Mobile Money Case Study
-This repo hosts a case study I will be using to test my data analysis skills. <br>
 <sub> The original repo can be found [here](https://github.com/mwangi-george/Data_Analysis_Case_Study) </sub>
 
 Navigate to the datasets folder of this repository and find the dataset for this task (mobile_money_data.csv).
