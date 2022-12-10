@@ -2,6 +2,7 @@
 Question 1
 What is the median/average deposit value of those using payment method 3 in 2020?
 */
+
 select
     avg(amount) as avg_deposit
 from
@@ -11,10 +12,12 @@ where
 and
     EXTRACT(YEAR FROM inserted_at) = 2020 
 
+
 /*
 Question 2
 When, in terms of which month of which year, did we observe the peak and valley (max and min) of deposit volume for Bamboo since inception?
 */
+
 with refined_dates as
 (
     select
@@ -63,10 +66,12 @@ select
 from
     condition
 
+
 /*
 Question 3
 Who are our power (most frequent) depositors by volume in 2021? Retrieve the user_id and the total volume of those users
 */
+
 select
     user_id,
     count(id) as deposit_frequency,
@@ -83,10 +88,12 @@ order by
     deposit_frequency desc,
     total_deposit desc
 
+
 /*
 Question 4
 We define High Net Worth individuals as people depositing $10k or above. Retrieve the user_id and the total deposits for users in that segment
 */
+
 with transactions as
 (
     select
@@ -109,10 +116,12 @@ from
 order by
     total_deposits desc
 
+
 /*
 Question 5
 What's the most used payment method among all users by volume?
 */
+
 select
     payment_method_id,
     count(payment_method_id) as methods_volume
@@ -121,10 +130,12 @@ from
 group by 
     1
 
+
 /*
 Question 6
 What's the average transaction fee?
 */
+
 select
     round(avg(fee), 2) as average_fee
 from
