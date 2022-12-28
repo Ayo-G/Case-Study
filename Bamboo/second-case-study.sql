@@ -1,3 +1,7 @@
+/* --------------------------
+Solved using Google BigQuery
+-------------------------- */
+
 /*
 Question 1
 Obtain the month-over-month change in absolute value and percentage for all completed (where status=Filled)Trades in 2020?
