@@ -1,3 +1,7 @@
+/* --------------------------
+Solved using Google BigQuery
+-------------------------- */
+
 /*
 Question 1
 Count all users who deposited since bamboo began but haven't traded
