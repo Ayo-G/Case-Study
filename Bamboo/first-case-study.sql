@@ -1,3 +1,7 @@
+/* --------------------------
+Solved using Google BigQuery
+-------------------------- */
+
 /*
 Question 1
 What is the median/average deposit value of those using payment method 3 in 2020?
