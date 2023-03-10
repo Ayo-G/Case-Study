@@ -14,6 +14,7 @@ You are responsible for performing all the statistical analysis required and wri
 
 The research manager wants you to address the following points in the key findings document and working files:
 
+#### Key Issues
 1. During the survey, participants listed all the different types of financial account that they have registered. The resulting data has a format where there is one observation per account type. Format the data so that there is now one observation per participant. (5 marks)
 
 2. Create two dummy variables for whether each participant is: i) financially excluded and ii) digitally financially included. What are the overall rates of financial exclusion and digital financial inclusion for the combined population of these three districts? (10 marks)
